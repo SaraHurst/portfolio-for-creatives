@@ -685,9 +685,8 @@ a.nav-link-primary:hover {
 /* -------------------------------------------------------------------------- */
 
 .hero-image {
-  max-width: 20%;
+  max-width: 30%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .hero {

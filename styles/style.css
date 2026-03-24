@@ -806,8 +806,6 @@ a.nav-link-primary:hover {
 }
 .section-item {
   padding: var(--padding-small);
-  border-width: 2rem;
-  border-color: #6269a1;
   margin: 1rem;
 }
 
@@ -1651,7 +1649,7 @@ to keep your styles reusable and consistent.
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   }
 }
 
@@ -1661,7 +1659,7 @@ to keep your styles reusable and consistent.
   /* TODO: Add styles here for XX-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
 }
 

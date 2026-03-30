@@ -1412,6 +1412,7 @@ to keep your styles reusable and consistent.
 
   h1 {
     font-size: 8rem;
+    font-family: var(--font-family-heading);
   }
 
   h2 {

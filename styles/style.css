@@ -1419,7 +1419,11 @@ to keep your styles reusable and consistent.
   }
 
   h3 {
-    font-size: 1.625rem;
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-weight: 500;
   }
 
   .h1-full-width,

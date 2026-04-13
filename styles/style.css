@@ -160,7 +160,7 @@
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #6269a1;
+  --color-bg-selection: #f1aec6;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -243,7 +243,10 @@ body {
     --color-bg-selection
   ); /* Uses your custom color for highlighted text */
 }
-
+a::selection {
+  background: #ffb7b7;
+  color: red;
+}
 /* ---------------------------------------- */
 /* 🖼️ Responsive Image Styles */
 /* These styles make your images and icons look good on any screen size */

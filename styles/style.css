@@ -112,6 +112,7 @@
   --color-text-primary: #000000;
   --color-text-secondary: #9b9eb2;
   --color-accent-primary: #000000;
+  --Colour-project-1-header: #f7faff;
   --color-overlay-primary: rgba(98, 105, 161, 0.5);
   --color-highlight: #f1aec6;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
@@ -187,6 +188,10 @@
   --gap-large: 3rem; /* Section gap: major content blocks, banner spacing */
   --gap-jumbo: 4rem; /* Hero gap: full-width containers, large card spacing */
   --gap-ultra: 8rem; /* Edge-to-edge spacing: mega sections, spacious layouts */
+  /* Project Colors */
+  --project-1-accent: #00386e;
+  --project-2-accent: red;
+  --project-3-accent: purple;
 }
 
 /* ======================
@@ -523,6 +528,10 @@ sup {
   font-weight: normal; /* optional: adjust weight */
 }
 
+.Research {
+  color: #0072de;
+  font-weight: 500;
+}
 /* ------------------------------------------------------------------ */
 /* 🎨 Custom Class Styles for Headlines, Projects, and Highlights     */
 /* Use these utility classes to style key text elements across pages  */
@@ -756,6 +765,24 @@ a.nav-link-primary:hover {
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-small);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  width: 10rem;
+}
+.logo {
+  fill: black;
+  transition: fill 0.3s ease-in-out; /* smooth color change */
+}
+.logo:hover {
+  fill: #f1aec6;
 }
 
 /*
@@ -1236,6 +1263,15 @@ a.nav-link-primary:hover {
   margin-bottom: 0.25rem;
 }
 
+.project-1-accent {
+  background: var(--project-1-accent);
+}
+.project-2-accent {
+  background: var(--project-2-accent);
+}
+.project-3-accent {
+  background: var(--project-3-accent);
+}
 /*
 
 ██████  ██       ██████   ██████      ██ ██████  ███████ ███████ ██    ██ ███    ███ ███████ 

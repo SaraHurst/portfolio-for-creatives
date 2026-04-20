@@ -189,9 +189,6 @@
   --gap-jumbo: 4rem; /* Hero gap: full-width containers, large card spacing */
   --gap-ultra: 8rem; /* Edge-to-edge spacing: mega sections, spacious layouts */
   /* Project Colors */
-
-  --project-2-accent: red;
-  --project-3-accent: purple;
 }
 
 /* ======================
@@ -592,6 +589,12 @@ sup {
   color: var(--color-text-project-category);
 }
 
+.project-full-width-style {
+  background-color: #f7faff;
+}
+.project-full-width-catfe {
+  background-color: #523b24;
+}
 /*
 
 ██   ██ ██    ██ ██████  ███████ ██████  ██      ██ ███    ██ ██   ██ ███████ 
